@@ -1,4 +1,4 @@
 <?php
-    $conexion= new mysqli("161.97.132.106","alex","AlexT!3n3DBS3gur@","acosysDB");
+    $conexion= new mysqli("localhost","user","pass","database");
     $conexion->set_charset("utf8");
 ?>
