@@ -1,0 +1,81 @@
+/* Theming */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"); 
+
+/* Adobe font */
+@import url('https://use.typekit.net/sdb6jnq.css');
+
+:root{
+    --bg-dark: #36383F;
+    --bg-light: #cfe4f3;
+    --white: #ebf3f9;
+    --black: #1c1d22;
+    --orange: #FF630A;
+    --gray: #b1b1b1;
+} /* variables*/
+
+/* Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* HTML y Body por defecto */
+html{ 
+        background-color: var(--bg-dark); 
+    } 
+
+body {
+    margin: 0 auto;
+    overflow-x: hidden;
+    color: var(--white);
+    min-height: 100vh;
+    max-width: 1440px;
+    background-color: var(--bg-light); 
+    font-family: 'Oswald', sans-serif;
+    font-weight: 100;
+    font-size: 1.2em;
+}
+
+
+/* ----- SINGIN & SINGUP ----- */
+.btn-color{
+    background-color: var(--bg-dark);
+    color: var(--bg-light);
+    
+}
+  
+.profile-image-pic{
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+}
+      
+.cardbody-color{
+    background-color: var(--white);
+}
+  
+a{
+    text-decoration: none;
+}
+/* ----- END SINGIN & SINGUP ----- */
+
+/* ----- FORMATEO DE PANTALLAS PARA PILOTOS ----- */
+.pilotos{
+    margin: 0 auto;
+    overflow-x: hidden;
+    color: var(--white);
+    min-height: 100vh;
+    max-width: 800px;
+    background-color: var(--bg-light); 
+    font-family: 'Oswald', sans-serif;
+    font-weight: 100;
+    font-size: 1.2em;
+}
+
+.margin-20{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/* ----- FORMATEO DE PANTALLAS PARA PILOTOS ----- */
